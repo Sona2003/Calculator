@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title ">
+        <h3>Calculator</h3>
+    </div>
+    <div class="container">
+        <div class="cal">
+
+            <h1 id="result">Result</h1>
+            <table>
+
+                <tr id="row1">
+                    <td colspan="2"><input type="text" id="input1"></td>
+                    <td colspan="2"><input type="text" id="input2"></td>
+                </tr>
+
+
+
+                <tr>
+                    <td><button>MC</button></td>
+                    <td><button>M+</button></td>
+                    <td><button>M-</button></td>
+                    <td><button onclick="div()">%</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="mul()">7</button></td>
+                    <td><button onclick="mul()">8</button></td>
+                    <td><button onclick="mul()">9</button></td>
+                    <td><button onclick="mul()">x</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="mul()">4</button></td>
+                    <td><button onclick="mul()">5</button></td>
+                    <td><button onclick="mul()">6</button></td>
+                    <td><button onclick="sub()">-</button> </td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="mul()">1</button></td>
+                    <td><button onclick="mul()">2</button></td>
+                    <td><button onclick="mul()">3</button></td>
+                    <td><button onclick="add()">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="clr()">C</button></td>
+                    <td><button onclick="mul()">0</button></td>
+                    <td><button onclick="mul()">.</button></td>
+                    <td><button onclick="mul()" style="background-color: orange; color: white; border: orange;">=</button></td>
+                </tr>
+
+
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
