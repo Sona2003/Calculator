@@ -1,46 +1,51 @@
-.container {
-    text-align: center;
 
-}
+    #bg {
+        background : linear-gradient(45deg, yellow, pink, yellow);
+        height: 710px;
+    }
 
-.title {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 30px;
-    text-decoration-line: underline;
-}
+    .container {
+        text-align: center;
+    }
 
-table {
-    margin: auto;
-}
+    .title {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 30px;
+        text-decoration-line: underline;
+    }
 
-input {
-    font-size: 28px;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
-    border: 3px solid rgb(0, 0, 0);
-}
+    table {
+        margin: auto;
+    }
 
-button {
-    margin-top: 13px;
-    border-radius: 10px;
-    font-size: 30px;
-    width: 92px;
-    height: 50px;
-    padding: 0px;
-    border: white;
-    /* color: white;
+    input {
+        font-size: 28px;
+        border-radius: 10px;
+        height: 60px;
+        width: 200px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+
+    button {
+        margin-top: 13px;
+        border-radius: 10px;
+        font-size: 30px;
+        width: 92px;
+        height: 50px;
+        padding: 0px;
+        border: white;
+        /* color: white;
     background-color: black; */
 
-}
+    }
 
-.cal {
-    border: 3px solid rgb(38, 36, 36);
-    display: inline-block;
-    padding: 20px;
-    border-radius: 30px;
-    border: gray;
-    background: gray;
-    /* color: white; */
-}
+    .cal {
+        border: 3px solid rgb(38, 36, 36);
+        display: inline-block;
+        padding: 20px;
+        border-radius: 30px;
+        border: gray;
+        background: gray;
+        color: black;
+    }
